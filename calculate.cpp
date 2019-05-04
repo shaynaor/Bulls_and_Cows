@@ -1,7 +1,7 @@
 #include "calculate.hpp"
 /* This Function returns the number of bull and pgia by format "bull,pgia" */
 string calculateBullAndPgia(string choice, string guess){
-
+    cout << "choice:   " << choice <<  "  guess:   "  << guess << endl;;
     int bullCounter = 0;
     /* Cuont how many bulls in the guess string. */
     for(int i = 0 ; i < choice.length() ; i++){
